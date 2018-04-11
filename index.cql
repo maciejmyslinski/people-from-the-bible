@@ -238,3 +238,36 @@ CREATE (casluhim)-[:HAD_PARENT]->(mizraim)
 
 CREATE (caphtorim:PERSON:MALE { name: 'Caphtorim' })
 CREATE (caphtorim)-[:HAD_PARENT]->(mizraim)
+
+CREATE (sidon:PERSON:MALE { name: 'Sidon' })
+CREATE (sidon)-[:HAD_PARENT]->(canaan)
+
+CREATE (heth:PERSON:MALE { name: 'Heth' })
+CREATE (heth)-[:HAD_PARENT]->(canaan)
+
+CREATE (jebusite:PERSON:MALE { name: 'Jubusite' })
+CREATE (jebusite)-[:HAD_PARENT]->(canaan)
+
+CREATE (amorite:PERSON:MALE { name: 'Amorite' })
+CREATE (amorite)-[:HAD_PARENT]->(canaan)
+
+CREATE (girgashite:PERSON:MALE { name: 'Girgashite' })
+CREATE (girgashite)-[:HAD_PARENT]->(cannan)
+
+CREATE (hivite:PERSON:MALE { name: 'Hivite' })
+CREATE (hivite)-[:HAD_PARENT]->(canaan)
+
+CREATE (arkite:PERSON:MALE { name: 'Arkite' })
+CREATE (arkite)-[:HAD_PARENT]->(cannan)
+
+CREATE (sinite:PERSON:MALE { name: 'Sinite' })
+CREATE (sinite)-[:HAD_PARENT]->(Sinite)
+
+CREATE (arvadite:PERSON:MALE { name: 'Arvadite' })
+CREATE (arvadite)-[:HAD_PARENT]->(Arvadite)
+
+CREATE (zemarite:PERSON:MALE { name: 'Zemarite' })
+CREATE (zemarite)-[:HAD_PARENT]->(canaan)
+
+CREATE (hamathite:PERSON:MALE { name: 'Hamathite' })
+CREATE (hamathite)-[:HAD_PARENT]->(canaan)

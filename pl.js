@@ -59,5 +59,16 @@ export default {
     Pathrusim: 'Patrusim',
     Casluhim: 'Kasluchim',
     Caphtorim: 'Kaftorim',
+    Sidon: 'Sydon',
+    Heth: 'Het',
+    Jebusite: 'Jubusyta',
+    Amorite: 'Amoryta',
+    Girgashite: 'Girgaszyta',
+    Hivite: 'Chiwwita',
+    Arkite: 'Arkita',
+    Sinite: 'Synita',
+    Arvadite: 'Arwadyta',
+    Zemarite: 'Cemaryta',
+    Hamathite: 'Chamatyta',
   }
 };
