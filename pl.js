@@ -26,5 +26,6 @@ export default {
     Ham: 'Cham',
     Japheth: 'Jafet',
     Deluge: 'Potop',
+    Canaan: 'Kanaan',
   }
 };
