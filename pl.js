@@ -97,7 +97,13 @@ export default {
     Jobab: 'Jobab',
     Reu: 'Reu',
     Serug: 'Serug',
-    Nahor: 'Nahor',
     Terah: 'Terach',
+    Abram: 'Abram',
+    Nahor: 'Nachor',
+    Haran: 'Haran',
+    Lot: 'Lot',
+    Sarai: 'Saraj',
+    Milcah: 'Milka',
+    Iscah: 'Jiska',
   }
 };

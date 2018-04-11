@@ -390,3 +390,33 @@ CREATE (terah:PERSON:MALE {
   deathYear: -1943
 })
 CREATE (terah)-[:HAD_PARENT]->(nahor)
+
+CREATE (abram:PERSON:MALE {
+  name: 'Abram',
+  birthYear: -2018,
+  deathYear: -1843
+})
+CREATE (abram)-[:HAD_PARENT]->(terah)
+
+CREATE (nahor2:PERSON:MALE { name: 'Nahor' })
+CREATE (nahor2)-[:HAD_PARENT]->(terah)
+
+CREATE (haran:PERSON:MALE { name: 'Haran' })
+CREATE (haran)-[:HAD_PARENT]->(terah)
+
+CREATE (lot:PERSON:MALE { name: 'Lot' })
+CREATE (lot)-[:HAD_PARENT]->(haran)
+
+CREATE (sarai:PERSON:FEMALE { 
+  name: 'Sarai',
+  birthYear: -2008,
+  deathYear: -1881 
+})
+CREATE (sarai)-[:MARRIED]->(abram)
+
+CREATE (milcah:PERSON:FEMALE { name: 'Milcah' })
+CREATE (milcah)-[:HAD_PARENT]->(haran)
+CREATE (milcah)-[:MARRIED]->(nahor2)
+
+CREATE (iscah:PERSON:FEMALE { name: 'Iscah' })
+CREATE (iscah)-[:HAD_PARENT]->(haran)
