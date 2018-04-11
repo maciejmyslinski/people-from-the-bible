@@ -70,5 +70,10 @@ export default {
     Arvadite: 'Arwadyta',
     Zemarite: 'Cemaryta',
     Hamathite: 'Chamatyta',
+    Elam: 'Elam',
+    Asshur: 'Aszszur',
+    Arpachshad: 'Arpachszad',
+    Lud: 'Lud',
+    Aram: 'Aram',
   }
 };

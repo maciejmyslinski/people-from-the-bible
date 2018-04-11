@@ -271,3 +271,18 @@ CREATE (zemarite)-[:HAD_PARENT]->(canaan)
 
 CREATE (hamathite:PERSON:MALE { name: 'Hamathite' })
 CREATE (hamathite)-[:HAD_PARENT]->(canaan)
+
+CREATE (elam:PERSON:MALE { name: 'Elam' })
+CREATE (elam)-[:HAD_PARENT]->(shem)
+
+CREATE (asshur:PERSON:MALE { name: 'Asshur' })
+CREATE (asshur)-[:HAD_PARENT]->(shem)
+
+CREATE (arpachshad:PERSON:MALE { name: 'Arpachshad' })
+CREATE (arpachshad)-[:HAD_PARENT]->(shem)
+
+CREATE (lud:PERSON:MALE { name: 'Lud' })
+CREATE (lud)-[:HAD_PARENT]->(shem)
+
+CREATE (aram:PERSON:MALE { name: 'Aram' })
+CREATE (aram)-[:HAD_PARENT]->(shem)
