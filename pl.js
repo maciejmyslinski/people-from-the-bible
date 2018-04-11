@@ -75,5 +75,9 @@ export default {
     Arpachshad: 'Arpachszad',
     Lud: 'Lud',
     Aram: 'Aram',
+    Uz: 'Uc',
+    Hul: 'Chul',
+    Gether: 'Geter',
+    Mash: 'Masz',
   }
 };

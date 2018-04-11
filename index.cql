@@ -286,3 +286,15 @@ CREATE (lud)-[:HAD_PARENT]->(shem)
 
 CREATE (aram:PERSON:MALE { name: 'Aram' })
 CREATE (aram)-[:HAD_PARENT]->(shem)
+
+CREATE (uz:PERSON:MALE { name: 'Uz' })
+CREATE (uz)-[:HAD_PARENT]->(aram)
+
+CREATE (hul:PERSON:MALE { name: 'Hul' })
+CREATE (hul)-[:HAD_PARENT]->(aram)
+
+CREATE (gether:PERSON:MALE { name: 'Gether' })
+CREATE (gether)-[:HAD_PARENT]->(aram)
+
+CREATE (mash:PERSON:MALE { name: 'Mash' })
+CREATE (mash)-[:HAD_PARENT]->(aram)
