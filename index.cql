@@ -310,3 +310,39 @@ CREATE (peleg)-[:HAD_PARENT]->(eber)
 
 CREATE (joktan:PERSON:MALE { name: 'Joktan' })
 CREATE (joktan)-[:HAD_PARENT]->(eber)
+
+CREATE (almodad:PERSON:MALE { name: 'Almodad' })
+CREATE (almodad)-[:HAD_PARENT]->(joktan)
+
+CREATE (sheleph:PERSON:MALE { name: 'Sheleph' })
+CREATE (sheleph)-[:HAD_PARENT]->(joktan)
+
+CREATE (hazarmaveth:PERSON:MALE { name: 'Hazarmaveth' })
+CREATE (hazarmaveth)-[:HAD_PARENT]->(joktan)
+
+CREATE (jerah:PERSON:MALE { name: 'Jerah' })
+CREATE (jerah)-[:HAD_PARENT]->(joktan)
+
+CREATE (hadoram:PERSON:MALE { name: 'Hadoram' })
+CREATE (hadoram)-[:HAD_PARENT]->(joktan)
+
+CREATE (uzal:PERSON:MALE { name: 'Uzal' })
+CREATE (uzal)-[:HAD_PARENT]->(joktan)
+
+CREATE (diklah:PERSON:MALE { name: 'Diklah' })
+CREATE (diklah)-[:HAD_PARENT]->(joktan)
+
+CREATE (obal:PERSON:MALE { name: 'Obal' })
+CREATE (obal)-[:HAD_PARENT]->(joktan)
+
+CREATE (abimael:PERSON:MALE { name: 'Abimael' })
+CREATE (abimael)-[:HAD_PARENT]->(joktan)
+
+CREATE (sheba:PERSON:MALE { name: 'Sheba' })
+CREATE (sheba)-[:HAD_PARENT]->(joktan)
+
+CREATE (ophir:PERSON:MALE { name: 'Ophir' })
+CREATE (ophir)-[:HAD_PARENT]->(joktan)
+
+CREATE (jobab:PERSON:MALE { name: 'Jobab' })
+CREATE (jobab)-[:HAD_PARENT]->(joktan)

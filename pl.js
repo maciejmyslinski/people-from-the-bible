@@ -83,5 +83,17 @@ export default {
     Eber: 'Eber',
     Peleg: 'Peleg',
     Joktan: 'Joktan',
+    Almodad: 'Almodad',
+    Sheleph: 'Szelef',
+    Hazarmaveth: 'Chacarmawet',
+    Jerah: 'Jarach',
+    Hadoram: 'Hadoram',
+    Uzal: 'Uzal',
+    Diklah: 'Dikla',
+    Obal: 'Obal',
+    Abimael: 'Abimael',
+    Sheba: 'Szeba',
+    Ophir: 'Ofir',
+    Jobab: 'Jobab',
   }
 };
