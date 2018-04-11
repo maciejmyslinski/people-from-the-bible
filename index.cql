@@ -298,3 +298,9 @@ CREATE (gether)-[:HAD_PARENT]->(aram)
 
 CREATE (mash:PERSON:MALE { name: 'Mash' })
 CREATE (mash)-[:HAD_PARENT]->(aram)
+
+CREATE (shelah:PERSON:MALE { name: 'Shelah' })
+CREATE (shelah)-[:HAD_PARENT]->(arpachshad)
+
+CREATE (eber:PERSON:MALE { name: 'Eber' })
+CREATE (eber)-[:HAD_PARENT]->(shelah)

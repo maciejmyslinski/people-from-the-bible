@@ -79,5 +79,7 @@ export default {
     Hul: 'Chul',
     Gether: 'Geter',
     Mash: 'Masz',
+    Shelah: 'Szelach',
+    Eber: 'Eber',
   }
 };
