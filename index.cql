@@ -278,7 +278,11 @@ CREATE (elam)-[:HAD_PARENT]->(shem)
 CREATE (asshur:PERSON:MALE { name: 'Asshur' })
 CREATE (asshur)-[:HAD_PARENT]->(shem)
 
-CREATE (arpachshad:PERSON:MALE { name: 'Arpachshad' })
+CREATE (arpachshad:PERSON:MALE { 
+  name: 'Arpachshad', 
+  birthYear: -2368, 
+  deathYear: -1930
+})
 CREATE (arpachshad)-[:HAD_PARENT]->(shem)
 
 CREATE (lud:PERSON:MALE { name: 'Lud' })
@@ -299,13 +303,25 @@ CREATE (gether)-[:HAD_PARENT]->(aram)
 CREATE (mash:PERSON:MALE { name: 'Mash' })
 CREATE (mash)-[:HAD_PARENT]->(aram)
 
-CREATE (shelah:PERSON:MALE { name: 'Shelah' })
+CREATE (shelah:PERSON:MALE { 
+  name: 'Shelah',
+  birthYear: -2333,
+  deathYear: -1900
+})
 CREATE (shelah)-[:HAD_PARENT]->(arpachshad)
 
-CREATE (eber:PERSON:MALE { name: 'Eber' })
+CREATE (eber:PERSON:MALE {
+  name: 'Eber',
+  birthYear: -2303,
+  deathYear: -1839
+})
 CREATE (eber)-[:HAD_PARENT]->(shelah)
 
-CREATE (peleg:PERSON:MALE { name: 'Peleg' })
+CREATE (peleg:PERSON:MALE {
+  name: 'Peleg',
+  birthYear: -2269,
+  deathYear: -2030,
+})
 CREATE (peleg)-[:HAD_PARENT]->(eber)
 
 CREATE (joktan:PERSON:MALE { name: 'Joktan' })
