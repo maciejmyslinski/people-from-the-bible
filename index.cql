@@ -214,3 +214,6 @@ CREATE (sheba)-[:HAD_PARENT]->(raamah)
 
 CREATE (dedan:PERSON:MALE { name: 'Dedan' })
 CREATE (dedan)-[:HAD_PARENT]->(raamah)
+
+CREATE (nimrod:PERSON:MALE { name: 'Nimrod' })
+CREATE (nimrod)-[:HAD_PARENT]->(cush)

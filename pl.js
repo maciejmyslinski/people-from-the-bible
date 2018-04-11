@@ -51,5 +51,6 @@ export default {
     Sabteca: 'Sabtecha',
     Sheba: 'Szeba',
     Dedan: 'Dedan',
+    Nimrod: 'Nimrod',
   }
 };
