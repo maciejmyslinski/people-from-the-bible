@@ -193,3 +193,18 @@ CREATE (mizraim)-[:HAD_PARENT]->(ham)
 
 CREATE (put:PERSON:MALE { name: 'Put' })
 CREATE (put)-[:HAD_PARENT]->(ham)
+
+CREATE (seba:PERSON:MALE { name: 'Seba' })
+CREATE (seba)-[:HAD_PARENT]->(cush)
+
+CREATE (havilah:PERSON:MALE { name: 'Havilah' })
+CREATE (havilah)-[:HAD_PARENT]->(cush)
+
+CREATE (sabtah:PERSON:MALE { name: 'Sabtah' })
+CREATE (sabtah)-[:HAD_PARENT]->(cush)
+
+CREATE (raamah:PERSON:MALE { name: 'Raamah' })
+CREATE (raamah)-[:HAD_PARENT]->(cush)
+
+CREATE (sabteca:PERSON:MALE { name: 'Sabteca' })
+CREATE (sabteca)-[:HAD_PARENT]->(cush)

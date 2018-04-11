@@ -44,5 +44,10 @@ export default {
     Cush: 'Kusz',
     Mizraim: 'Micraim',
     Put: 'Put',
+    Seba: 'Seba',
+    Havilah: 'Chawila',
+    Sabtah: 'Sabta',
+    Raamah: 'Rama',
+    Sabteca: 'Sabtecha',
   }
 };
