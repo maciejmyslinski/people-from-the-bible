@@ -81,5 +81,7 @@ export default {
     Mash: 'Masz',
     Shelah: 'Szelach',
     Eber: 'Eber',
+    Peleg: 'Peleg',
+    Joktan: 'Joktan',
   }
 };

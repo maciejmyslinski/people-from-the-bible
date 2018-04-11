@@ -304,3 +304,9 @@ CREATE (shelah)-[:HAD_PARENT]->(arpachshad)
 
 CREATE (eber:PERSON:MALE { name: 'Eber' })
 CREATE (eber)-[:HAD_PARENT]->(shelah)
+
+CREATE (peleg:PERSON:MALE { name: 'Peleg' })
+CREATE (peleg)-[:HAD_PARENT]->(eber)
+
+CREATE (joktan:PERSON:MALE { name: 'Joktan' })
+CREATE (joktan)-[:HAD_PARENT]->(eber)
