@@ -92,7 +92,6 @@ export default {
     Diklah: 'Dikla',
     Obal: 'Obal',
     Abimael: 'Abimael',
-    Sheba: 'Szeba',
     Ophir: 'Ofir',
     Jobab: 'Jobab',
     Reu: 'Reu',

@@ -141,7 +141,7 @@ CREATE (ham)-[:HAD_PARENT]->(noah)
 CREATE (ham)-[:LIVED_THROUGH]->(deluge)
 
 CREATE (canaan:PERSON:MALE { name: 'Canaan' })
-CREATE (cannan)-[:HAD_PARENT]->(ham)
+CREATE (canaan)-[:HAD_PARENT]->(ham)
 
 CREATE (gomer:PERSON:MALE { name: 'Gomer' })
 CREATE (gomer)-[:HAD_PARENT]->(japheth)
@@ -252,19 +252,19 @@ CREATE (amorite:PERSON:MALE { name: 'Amorite' })
 CREATE (amorite)-[:HAD_PARENT]->(canaan)
 
 CREATE (girgashite:PERSON:MALE { name: 'Girgashite' })
-CREATE (girgashite)-[:HAD_PARENT]->(cannan)
+CREATE (girgashite)-[:HAD_PARENT]->(canaan)
 
 CREATE (hivite:PERSON:MALE { name: 'Hivite' })
 CREATE (hivite)-[:HAD_PARENT]->(canaan)
 
 CREATE (arkite:PERSON:MALE { name: 'Arkite' })
-CREATE (arkite)-[:HAD_PARENT]->(cannan)
+CREATE (arkite)-[:HAD_PARENT]->(canaan)
 
 CREATE (sinite:PERSON:MALE { name: 'Sinite' })
-CREATE (sinite)-[:HAD_PARENT]->(cannan)
+CREATE (sinite)-[:HAD_PARENT]->(canaan)
 
 CREATE (arvadite:PERSON:MALE { name: 'Arvadite' })
-CREATE (arvadite)-[:HAD_PARENT]->(cannan)
+CREATE (arvadite)-[:HAD_PARENT]->(canaan)
 
 CREATE (zemarite:PERSON:MALE { name: 'Zemarite' })
 CREATE (zemarite)-[:HAD_PARENT]->(canaan)
@@ -320,7 +320,7 @@ CREATE (eber)-[:HAD_PARENT]->(shelah)
 CREATE (peleg:PERSON:MALE {
   name: 'Peleg',
   birthYear: -2269,
-  deathYear: -2030,
+  deathYear: -2030
 })
 CREATE (peleg)-[:HAD_PARENT]->(eber)
 
@@ -354,8 +354,8 @@ CREATE (obal)-[:HAD_PARENT]->(joktan)
 CREATE (abimael:PERSON:MALE { name: 'Abimael' })
 CREATE (abimael)-[:HAD_PARENT]->(joktan)
 
-CREATE (sheba:PERSON:MALE { name: 'Sheba' })
-CREATE (sheba)-[:HAD_PARENT]->(joktan)
+CREATE (sheba2:PERSON:MALE { name: 'Sheba' })
+CREATE (sheba2)-[:HAD_PARENT]->(joktan)
 
 CREATE (ophir:PERSON:MALE { name: 'Ophir' })
 CREATE (ophir)-[:HAD_PARENT]->(joktan)
