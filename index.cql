@@ -208,3 +208,9 @@ CREATE (raamah)-[:HAD_PARENT]->(cush)
 
 CREATE (sabteca:PERSON:MALE { name: 'Sabteca' })
 CREATE (sabteca)-[:HAD_PARENT]->(cush)
+
+CREATE (sheba:PERSON:MALE { name: 'Sheba' })
+CREATE (sheba)-[:HAD_PARENT]->(raamah)
+
+CREATE (dedan:PERSON:MALE { name: 'Dedan' })
+CREATE (dedan)-[:HAD_PARENT]->(raamah)

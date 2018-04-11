@@ -49,5 +49,7 @@ export default {
     Sabtah: 'Sabta',
     Raamah: 'Rama',
     Sabteca: 'Sabtecha',
+    Sheba: 'Szeba',
+    Dedan: 'Dedan',
   }
 };
