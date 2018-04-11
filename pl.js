@@ -27,5 +27,6 @@ export default {
     Japheth: 'Jafet',
     Deluge: 'Potop',
     Canaan: 'Kanaan',
+    Gomer: 'Gomer',
   }
 };

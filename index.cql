@@ -142,3 +142,6 @@ CREATE (ham)-[:LIVED_THROUGH]->(deluge)
 
 CREATE (canaan:PERSON:MALE { name: 'Canaan' })
 CREATE (cannan)-[:HAD_PARENT]->(ham)
+
+CREATE (gomer:PERSON:MALE { name: 'Gomer' })
+CREATE (gomer)-[:HAD_PARENT]->(japheth)
