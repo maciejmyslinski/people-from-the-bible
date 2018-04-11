@@ -37,5 +37,9 @@ export default {
     Ashkenaz: 'Aszkenaz',
     Riphath: 'Rifat',
     Togarmah: 'Togarma',
+    Elishah: 'Elisza',
+    Tarshish: 'Tarszisz',
+    Kittim: 'Kittim',
+    Dodanim: 'Dodanim',
   }
 };

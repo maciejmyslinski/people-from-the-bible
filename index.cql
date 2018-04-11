@@ -172,3 +172,15 @@ CREATE (riphath)-[:HAD_PARENT]->(gomer)
 
 CREATE (togarmah:PERSON:MALE { name: 'Togarmah' })
 CREATE (togarmah)-[:HAD_PARENT]->(gomer)
+
+CREATE (elishah:PERSON:MALE { name: 'Elishah' })
+CREATE (elishah)-[:HAD_PARENT]->(javan)
+
+CREATE (tarshish:PERSON:MALE { name: 'Tarshish' })
+CREATE (tarshish)-[:HAD_PARENT]->(javan)
+
+CREATE (kittim:PERSON:MALE { name: 'Kittim' })
+CREATE (kittim)-[:HAD_PARENT]->(javan)
+
+CREATE (dodanim:PERSON:MALE { name: 'Dodanim' })
+CREATE (dodanim)-[:HAD_PARENT]->(javan)
