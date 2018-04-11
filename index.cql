@@ -261,10 +261,10 @@ CREATE (arkite:PERSON:MALE { name: 'Arkite' })
 CREATE (arkite)-[:HAD_PARENT]->(cannan)
 
 CREATE (sinite:PERSON:MALE { name: 'Sinite' })
-CREATE (sinite)-[:HAD_PARENT]->(Sinite)
+CREATE (sinite)-[:HAD_PARENT]->(cannan)
 
 CREATE (arvadite:PERSON:MALE { name: 'Arvadite' })
-CREATE (arvadite)-[:HAD_PARENT]->(Arvadite)
+CREATE (arvadite)-[:HAD_PARENT]->(cannan)
 
 CREATE (zemarite:PERSON:MALE { name: 'Zemarite' })
 CREATE (zemarite)-[:HAD_PARENT]->(canaan)
