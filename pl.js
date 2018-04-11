@@ -95,5 +95,9 @@ export default {
     Sheba: 'Szeba',
     Ophir: 'Ofir',
     Jobab: 'Jobab',
+    Reu: 'Reu',
+    Serug: 'Serug',
+    Nahor: 'Nahor',
+    Terah: 'Terach',
   }
 };

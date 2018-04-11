@@ -362,3 +362,31 @@ CREATE (ophir)-[:HAD_PARENT]->(joktan)
 
 CREATE (jobab:PERSON:MALE { name: 'Jobab' })
 CREATE (jobab)-[:HAD_PARENT]->(joktan)
+
+CREATE (reu:PERSON:MALE {
+  name: 'Reu',
+  birthYear: -2239,
+  deathYear: -2000
+})
+CREATE (reu)-[:HAD_PARENT]->(peleg)
+
+CREATE (serug:PERSON:MALE {
+  name: 'Serug',
+  birthYear: -2207,
+  deathYear: -1977
+})
+CREATE (serug)-[:HAD_PARENT]->(reu)
+
+CREATE (nahor:PERSON:MALE {
+  name: 'Nahor',
+  birthYear: -2177,
+  deathYear: -2029
+})
+CREATE (nahor)-[:HAD_PARENT]->(serug)
+
+CREATE (terah:PERSON:MALE {
+  name: 'Terah',
+  birthYear: -2148,
+  deathYear: -1943
+})
+CREATE (terah)-[:HAD_PARENT]->(nahor)
