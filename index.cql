@@ -163,3 +163,12 @@ CREATE (meshech)-[:HAD_PARENT]->(japheth)
 
 CREATE (tiras:PERSON:MALE { name: 'Tiras' })
 CREATE (tiras)-[:HAD_PARENT]->(japheth)
+
+CREATE (ashkenaz:PERSON:MALE { name: 'Ashkenaz' })
+CREATE (ashkenaz)-[:HAD_PARENT]->(gomer)
+
+CREATE (riphath:PERSON:MALE { name: 'Riphath' })
+CREATE (riphath)-[:HAD_PARENT]->(gomer)
+
+CREATE (togarmah:PERSON:MALE { name: 'Togarmah' })
+CREATE (togarmah)-[:HAD_PARENT]->(gomer)

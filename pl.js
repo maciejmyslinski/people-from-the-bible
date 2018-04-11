@@ -34,5 +34,8 @@ export default {
     Tubal: 'Tubal',
     Meshech: 'Meszech',
     Tiras: 'Tiras',
+    Ashkenaz: 'Aszkenaz',
+    Riphath: 'Rifat',
+    Togarmah: 'Togarma',
   }
 };
