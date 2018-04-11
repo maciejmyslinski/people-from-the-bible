@@ -52,5 +52,12 @@ export default {
     Sheba: 'Szeba',
     Dedan: 'Dedan',
     Nimrod: 'Nimrod',
+    Ludim: 'Ludim',
+    Anamim: 'Anamim',
+    Lehabim: 'Lehabim',
+    Naphtuhim: 'Naftuchim',
+    Pathrusim: 'Patrusim',
+    Casluhim: 'Kasluchim',
+    Caphtorim: 'Kaftorim',
   }
 };

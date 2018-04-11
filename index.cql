@@ -217,3 +217,24 @@ CREATE (dedan)-[:HAD_PARENT]->(raamah)
 
 CREATE (nimrod:PERSON:MALE { name: 'Nimrod' })
 CREATE (nimrod)-[:HAD_PARENT]->(cush)
+
+CREATE (ludim:PERSON:MALE { name: 'Ludim' })
+CREATE (ludim)-[:HAD_PARENT]->(mizraim)
+
+CREATE (anamim:PERSON:MALE { name: 'Anamim' })
+CREATE (anamim)-[:HAD_PARENT]->(mizraim)
+
+CREATE (lehabim:PERSON:MALE { name: 'Lehabim' })
+CREATE (lehabim)-[:HAD_PARENT]->(mizraim)
+
+CREATE (naphtuhim:PERSON:MALE { name: 'Naphtuhim' })
+CREATE (naphtuhim)-[:HAD_PARENT]->(mizraim)
+
+CREATE (pathrusim:PERSON:MALE { name: 'Pathrusim' })
+CREATE (pathrusim)-[:HAD_PARENT]->(mizraim)
+
+CREATE (casluhim:PERSON:MALE { name: 'Casluhim' })
+CREATE (casluhim)-[:HAD_PARENT]->(mizraim)
+
+CREATE (caphtorim:PERSON:MALE { name: 'Caphtorim' })
+CREATE (caphtorim)-[:HAD_PARENT]->(mizraim)
