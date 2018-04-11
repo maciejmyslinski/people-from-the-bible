@@ -41,5 +41,8 @@ export default {
     Tarshish: 'Tarszisz',
     Kittim: 'Kittim',
     Dodanim: 'Dodanim',
+    Cush: 'Kusz',
+    Mizraim: 'Micraim',
+    Put: 'Put',
   }
 };

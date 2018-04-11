@@ -184,3 +184,12 @@ CREATE (kittim)-[:HAD_PARENT]->(javan)
 
 CREATE (dodanim:PERSON:MALE { name: 'Dodanim' })
 CREATE (dodanim)-[:HAD_PARENT]->(javan)
+
+CREATE (cush:PERSON:MALE { name: 'Cush' })
+CREATE (cush)-[:HAD_PARENT]->(ham)
+
+CREATE (mizraim:PERSON:MALE { name: 'Mizraim' })
+CREATE (mizraim)-[:HAD_PARENT]->(ham)
+
+CREATE (put:PERSON:MALE { name: 'Put' })
+CREATE (put)-[:HAD_PARENT]->(ham)
