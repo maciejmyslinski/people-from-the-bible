@@ -145,3 +145,21 @@ CREATE (cannan)-[:HAD_PARENT]->(ham)
 
 CREATE (gomer:PERSON:MALE { name: 'Gomer' })
 CREATE (gomer)-[:HAD_PARENT]->(japheth)
+
+CREATE (magog:PERSON:MALE { name: 'Magog' })
+CREATE (magog)-[:HAD_PARENT]->(japheth)
+
+CREATE (madai:PERSON:MALE { name: 'Madai' })
+CREATE (madai)-[:HAD_PARENT]->(japheth)
+
+CREATE (javan:PERSON:MALE { name: 'Javan' })
+CREATE (javan)-[:HAD_PARENT]->(japheth)
+
+CREATE (tubal:PERSON:MALE { name: 'Tubal' })
+CREATE (tubal)-[:HAD_PARENT]->(japheth)
+
+CREATE (meshech:PERSON:MALE { name: 'Meshech' })
+CREATE (meshech)-[:HAD_PARENT]->(japheth)
+
+CREATE (tiras:PERSON:MALE { name: 'Tiras' })
+CREATE (tiras)-[:HAD_PARENT]->(japheth)

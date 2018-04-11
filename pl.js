@@ -28,5 +28,11 @@ export default {
     Deluge: 'Potop',
     Canaan: 'Kanaan',
     Gomer: 'Gomer',
+    Magog: 'Magog',
+    Madai: 'Madaj',
+    Javan: 'Jawan',
+    Tubal: 'Tubal',
+    Meshech: 'Meszech',
+    Tiras: 'Tiras',
   }
 };
